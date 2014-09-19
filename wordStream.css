@@ -19,6 +19,9 @@ p{
 .padding-above{
 	padding-top: 10px;
 }
+.padding-below{
+	padding-bottom: 20px;
+}
 #sidebar p{
 	padding: 5px 10px 10px 10px;
 }
@@ -38,7 +41,8 @@ p{
 	border-radius: 0 0 15px 15px;
 }
 #header ul li{
-	display: inline;
+	display: inline-block;
+	vertical-align: top;
 	text-decoration: none;
 	padding: 5px 10px 0 10px;
 	border-right: solid #c1bbbb 1px; /*darker gray color*/
@@ -49,6 +53,14 @@ p{
 }
 .last-li{
 	/*CHANGE PADDING RIGHT*/
+}
+.login{
+	background-size: 100px;
+	width: 40px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #0D74DB;
+	border: solid 1px #0D74DB;
 }
 #header img{
 	width: 320px;
@@ -76,7 +88,6 @@ h1{
 #body-middle{
 	width:700px;
 	min-height: 300px;
-	background-color: #d80dd5;
 }
 h4{
     color: #0D74DB;
@@ -125,11 +136,11 @@ h4{
 	vertical-align: top;
 	background-color: pink;
 }
-#body-bottom{
+/*#body-bottom{
 	width:730px;
 	height:100px;
 	background-color: orange;
-}
+}*/
 #sidebar{
 	width:280px;
 	min-height: 500px;
@@ -153,9 +164,29 @@ h3{
 	font-size: 1em;
 	padding: 10px 10px 0 10px;
 }
+button{
+	background-size: 280px;
+	display: block;
+	width: 250px;
+	margin: 5px 10px 5px 10px;
+	padding: 5px;
+	border-radius: 6px;
+}
+.button-1{
+	background-color: #0D74DB;
+	border: solid 1px #0D74DB;
+
+}
+.button-2{
+	background-color: #f98b04;
+	border: solid 1px #f98b04;
+}
 #sidebar img{
 	width: 200px;
 	height: 249px;
 	padding: 50px 10px 0 10px;
+}
+.centered-text{
+	text-align: center;
 }
 
