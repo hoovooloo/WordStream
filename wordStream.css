@@ -13,6 +13,9 @@ p{
 	font-size: .9em;
 	line-height: 25px;
 }
+.strong{
+	font-weight: bold;
+}
 .padding-above{
 	padding-top: 10px;
 }
@@ -78,6 +81,7 @@ h1{
 h4{
     color: #0D74DB;
 	font-size: 1.1em;
+	padding-top: 10px;
 }
 #body-middle ul{
 	list-style: none;
@@ -107,18 +111,19 @@ h4{
 	height: 180px;
 	padding: 10px;
 }
-#body-border-left{
-	width: 100px;
-	height:200px;
+#body-border img{
+	width: 68px;
+	height:142px;
 	display: inline-block;
 	vertical-align: top;
-	background-color:pink;
+	padding-bottom: 48px;
 }
 #body-border-right{
 	width: 530px;
 	height:200px;
 	display: inline-block;
 	vertical-align: top;
+	background-color: pink;
 }
 #body-bottom{
 	width:730px;
@@ -147,11 +152,10 @@ h3{
 	color: #f98b04; /*this is the orange color*/
 	font-size: 1em;
 	padding: 10px 10px 0 10px;
-	font-weight: bold;
 }
-#sidebar-bottom{
-	width:280px;
-	min-height: 250px;
-	background-color: white;
+#sidebar img{
+	width: 200px;
+	height: 249px;
+	padding: 50px 10px 0 10px;
 }
 
