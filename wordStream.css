@@ -2,7 +2,6 @@
 	/*background-color: white*/
 	font-family: arial, sans-serif;
 	margin: 0;
-	/*padding: 0;*/
 	font-size: 1em;
 	color: black;
 }
@@ -12,72 +11,7 @@ a:link {
 p{
 	font-size: .9em;
 	line-height: 25px;
-}
-.strong{
-	font-weight: bold;
-}
-.padding-above{
 	padding-top: 10px;
-}
-.padding-below{
-	padding-bottom: 20px;
-}
-#sidebar p{
-	padding: 5px 10px 10px 10px;
-}
-#container{
-	width:1000px;
-	min-height:800px;
-	background-color: white;
-}
-#header{
-	width:1000px;
-	height:220px;
-	background-color: white;
-}
-#header ul{
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 370px;
-	background-color: #efeded;
-	border-radius: 0 0 15px 15px;
-	border: solid #c1bbbb 1px;
-	border-top: 0;
-}
-#header ul li{
-	display: inline;
-	vertical-align: top;
-	text-decoration: none;
-	padding: 5px 10px 0 10px;
-	border-right: solid #c1bbbb 1px; /*darker gray color*/
-	color: #c1bbbb;
-}
-#header ul li:first-child{
-	padding:5px 10px 0 0;
-}
-#header ul li:last-child{
-	border-right:0;	
-	padding: 5px 15px 0 10px;
-}
-#header .login{
-	display: inline-block;
-}
-.login{
-	background-size: 60px;
-	width: 60px;
-	height: 20px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: #0D74DB;
-	border: solid 1px #0D74DB;
-	font-size: 0.8em;
-	padding: 0;
-	margin: 0;
-}
-#header img{
-	width: 320px;
-	height: 99px;
-	padding: 10px;
 }
 h1{
 	background-color: #0D74DB;
@@ -85,86 +19,6 @@ h1{
 	padding: 15px 10px;
 	color: white;
 	font-weight: normal;
-}
-#body{
-	width:700px;
-	min-height: 500px;
-	display: inline-block;
-	vertical-align: top;
-}
-#body-top{
-	width:700px;
-	height: 100px;
-	background-color: red;
-}
-#body-middle{
-	width:700px;
-	min-height: 300px;
-}
-h4{
-    color: #0D74DB;
-	font-size: 1.1em;
-	padding-top: 10px;
-}
-#body-middle ul{
-	list-style: none;
-    padding:0;
-    margin:0;
-}
-#body-middle ul li{
-	padding: 5px 0 10px 5px;
-	text-indent: .7em;
-}
-#body-middle ul li{
-	/*GET TEXT TO ALIGN WITH BULLET?*/
-}
-#body-middle ul li p:before{
-    content: "•  ";
-    color: #0D74DB; 
-    padding-left: 5px;
-}
-#body-border{
-	width:630px;
-	height:200px;
-	border: 5px solid #0D74DB;
-	background-color: white;
-}
-#body-border img{
-	width: 80px;
-	height: 180px;
-	padding: 10px;
-}
-#body-border img{
-	width: 68px;
-	height:142px;
-	display: inline-block;
-	vertical-align: top;
-	padding-bottom: 48px;
-}
-#body-border-right{
-	width: 530px;
-	height:200px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: pink;
-}
-.button-3{
-	background-color: #b4e21b;
-	border: solid 1px #b4e21b;
-	color: white;
-	font-size: 1.1em;
-}
-#sidebar{
-	width:280px;
-	min-height: 500px;
-	display: inline-block;
-	vertical-align: top;
-	margin-right: 20px;
-}
-#sidebar-top{
-	width:280px;
-	min-height: 250px;
-	background-color:white;
 }
 h2{
 	color: #0D74DB;
@@ -177,6 +31,14 @@ h3{
 	font-size: 1em;
 	padding: 10px 10px 0 10px;
 }
+h4{
+    color: #0D74DB;
+	font-size: 1.1em;
+	padding-top: 10px;
+}
+h5{
+	padding-top: 10px;
+}
 button{
 	background-size: 280px;
 	display: block;
@@ -185,31 +47,174 @@ button{
 	padding: 5px;
 	border-radius: 6px;
 }
-.button-1{
-	background-color: #0D74DB;
-	border: solid 1px #0D74DB;
+.strong{
+	font-weight: bold;
 }
-.button-2{
-	background-color: #f98b04;
-	border: solid 1px #f98b04;
+.padding-above{
+	padding-top: 10px;
 }
-#sidebar img{
-	width: 200px;
-	height: 249px;
-	padding: 50px 10px 0 10px;
+.padding-below{
+	padding-bottom: 20px;
 }
-.centered-text{
-	text-align: center;
-}
-/*.background-blue{
-	background-color: #f98b04;
-}
-.background-white{
+#container{
+	width:1000px;
+	min-height:800px;
 	background-color: white;
 }
-.text-blue{
-	font-color: #f98b04;
-}*/
-/*.text-white{
-	font-color: white;
-}*/
+#header{
+	width:1000px;
+	height:220px;
+	background-color: white;
+}
+	#header ul{
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 370px;
+		background-color: #efeded;
+		border-radius: 0 0 15px 15px;
+		border: solid #c1bbbb 1px;
+		border-top: 0;
+	}
+	#header ul li{
+		display: inline;
+		vertical-align: top;
+		text-decoration: none;
+		padding: 5px 10px 0 10px;
+		border-right: solid #c1bbbb 1px; /*darker gray color*/
+		color: #c1bbbb;
+	}
+	#header ul li:first-child{
+		padding:5px 10px 0 0;
+	}
+	#header ul li:last-child{
+		border-right:0;	
+		padding: 5px 15px 0 10px;
+	}
+	#header .login{
+	display: inline-block;
+	}
+	.login{
+		background-size: 60px;
+		width: 60px;
+		height: 20px;
+		display: inline-block;
+		vertical-align: top;
+		background-color: #0D74DB;
+		border: solid 1px #0D74DB;
+		font-size: 0.8em;
+		padding: 0;
+		margin:0 0 0 15px;
+	}
+	#header img{
+		width: 320px;
+		height: 99px;
+		padding: 10px;
+	}
+#body{
+	width:700px;
+	min-height: 500px;
+	display: inline-block;
+	vertical-align: top;
+}
+#body-top{
+	width:700px;
+	height: 100px;
+	background-color: red;
+}
+#body-top p{
+	font-size: 1.3em;
+	color: #c1bbbb;
+	display: inline-block;
+	vertical-align: top;
+	padding: 3px 5px 0 5px;
+}
+#body-top a{
+	font-size: .9em;
+	color:blue;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 5px 0 0px;
+}
+#body-middle{
+	width:700px;
+	min-height: 300px;
+}
+	#body-middle ul{
+		list-style: none;
+	    padding:0;
+	    margin:0;
+	}
+	#body-middle p{
+		padding-top: 10px;
+	}
+	#body-middle ul li{
+		padding: 5px 0 10px 5px;
+		text-indent: .7em;
+	}
+	#body-middle ul li{
+		/*GET TEXT TO ALIGN WITH BULLET?*/
+	}
+	#body-middle ul li p:before{
+	    content: "•  ";
+	    color: #0D74DB; 
+	    padding-left: 5px;
+	}
+#body-border{
+	width:630px;
+	height:165px;
+	border: 5px solid #0D74DB;
+	background-color: white;
+}
+	#body-border img{
+		width: 68px;
+		height:100px;
+		display: inline-block;
+		vertical-align: top;
+		padding-bottom: 65px;
+	}
+	#body-border-right{
+		width: 530px;
+		height:165px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.button-3{
+		background-color: #b4e21b;
+		border: solid 1px #b4e21b;
+		color: white;
+		font-size: 1.1em;
+		background-size: 200px;
+		width: 200px;
+		margin-left: 0;
+	}
+#sidebar{
+	width:280px;
+	min-height: 500px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+	#sidebar-top{
+		width:280px;
+		min-height: 250px;
+		background-color:white;
+	}
+	#sidebar p{
+		padding-left: 10px;
+	}
+	.button-1{
+		background-color: #0D74DB;
+		border: solid 1px #0D74DB;
+	}
+	.button-2{
+		background-color: #f98b04;
+		border: solid 1px #f98b04;
+	}
+	#sidebar img{
+		width: 200px;
+		height: 249px;
+		padding: 50px 10px 0 10px;
+	}
+.centered-text{
+	text-align: center;
+/*} REDO THIS*/
