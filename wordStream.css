@@ -11,6 +11,10 @@ a:link {
 }
 p{
 	font-size: .9em;
+	line-height: 25px;
+}
+.padding-above{
+	padding-top: 10px;
 }
 #sidebar p{
 	padding: 5px 10px 10px 10px;
@@ -72,14 +76,25 @@ h1{
 	background-color: #d80dd5;
 }
 h4{
-	/*make text blue*/
-	/*make text resized*/
-	padding-left: 20px;
+    color: #0D74DB;
+	font-size: 1.1em;
+}
+#body-middle ul{
+	list-style: none;
+    padding:0;
+    margin:0;
 }
 #body-middle ul li{
-	/*make bullets blue*/
-	padding: 0 0 5px 30px;
-	/*indent bullets*/
+	padding: 5px 0 10px 5px;
+	text-indent: .7em;
+}
+#body-middle ul li{
+	/*GET TEXT TO ALIGN WITH BULLET?*/
+}
+#body-middle ul li p:before{
+    content: "•  ";
+    color: #0D74DB; 
+    padding-left: 5px;
 }
 #body-border{
 	width:630px;
@@ -115,7 +130,6 @@ h4{
 	min-height: 500px;
 	display: inline-block;
 	vertical-align: top;
-	/*padding-right: 40px;*/
 	margin-right: 20px;
 }
 #sidebar-top{
