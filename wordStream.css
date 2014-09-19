@@ -119,22 +119,28 @@ button{
 #body-top{
 	width:700px;
 	height: 100px;
-	background-color: red;
+	border-bottom: solid #c1bbbb 1px;
 }
-#body-top p{
-	font-size: 1.3em;
-	color: #c1bbbb;
-	display: inline-block;
-	vertical-align: top;
-	padding: 3px 5px 0 5px;
-}
-#body-top a{
-	font-size: .9em;
-	color:blue;
-	display: inline-block;
-	vertical-align: top;
-	padding: 10px 5px 0 0px;
-}
+	#body-top p{
+		font-size: 1.3em;
+		color: #c1bbbb;
+		display: inline-block;
+		vertical-align: top;
+		padding: 3px 5px 0 5px;
+	}
+	#body-top a{
+		font-size: .9em;
+		color:#0D74DB;
+		display: inline-block;
+		vertical-align: top;
+		padding: 10px 5px 0 0px;
+		width: 109px;
+	}
+	#body-top img{
+		display: inline-block;
+		vertical-align: top;
+		padding: 10px 0 0 300px;	
+	}
 #body-middle{
 	width:700px;
 	min-height: 300px;
@@ -147,15 +153,8 @@ button{
 	#body-middle p{
 		padding-top: 10px;
 	}
-	#body-middle ul li{
-		padding: 5px 0 10px 5px;
-		text-indent: .7em;
-	}
-	#body-middle ul li{
-		/*GET TEXT TO ALIGN WITH BULLET?*/
-	}
-	#body-middle ul li p:before{
-	    content: "•  ";
+	#body-middle ul li :before{
+		content: "•  ";
 	    color: #0D74DB; 
 	    padding-left: 5px;
 	}
