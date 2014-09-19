@@ -36,31 +36,43 @@ p{
 	background-color: white;
 }
 #header ul{
-	margin-left: 450px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 370px;
 	background-color: #efeded;
 	border-radius: 0 0 15px 15px;
+	border: solid #c1bbbb 1px;
+	border-top: 0;
 }
 #header ul li{
-	display: inline-block;
+	display: inline;
 	vertical-align: top;
 	text-decoration: none;
 	padding: 5px 10px 0 10px;
 	border-right: solid #c1bbbb 1px; /*darker gray color*/
 	color: #c1bbbb;
 }
-.first-li{
-	/*CHANGE PADDING*/
+#header ul li:first-child{
+	padding:5px 10px 0 0;
 }
-.last-li{
-	/*CHANGE PADDING RIGHT*/
+#header ul li:last-child{
+	border-right:0;	
+	padding: 5px 15px 0 10px;
+}
+#header .login{
+	display: inline-block;
 }
 .login{
-	background-size: 100px;
-	width: 40px;
+	background-size: 60px;
+	width: 60px;
+	height: 20px;
 	display: inline-block;
 	vertical-align: top;
 	background-color: #0D74DB;
 	border: solid 1px #0D74DB;
+	font-size: 0.8em;
+	padding: 0;
+	margin: 0;
 }
 #header img{
 	width: 320px;
@@ -136,11 +148,12 @@ h4{
 	vertical-align: top;
 	background-color: pink;
 }
-/*#body-bottom{
-	width:730px;
-	height:100px;
-	background-color: orange;
-}*/
+.button-3{
+	background-color: #b4e21b;
+	border: solid 1px #b4e21b;
+	color: white;
+	font-size: 1.1em;
+}
 #sidebar{
 	width:280px;
 	min-height: 500px;
@@ -175,7 +188,6 @@ button{
 .button-1{
 	background-color: #0D74DB;
 	border: solid 1px #0D74DB;
-
 }
 .button-2{
 	background-color: #f98b04;
@@ -189,4 +201,15 @@ button{
 .centered-text{
 	text-align: center;
 }
-
+/*.background-blue{
+	background-color: #f98b04;
+}
+.background-white{
+	background-color: white;
+}
+.text-blue{
+	font-color: #f98b04;
+}*/
+/*.text-white{
+	font-color: white;
+}*/
