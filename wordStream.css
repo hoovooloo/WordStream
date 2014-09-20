@@ -1,5 +1,5 @@
 *{
-	/*background-color: white*/
+	background-color: white;
 	font-family: arial, sans-serif;
 	margin: 0;
 	font-size: 1em;
@@ -27,8 +27,7 @@ h2{
 	font-weight: normal;
 }
 h3{
-	color: #f98b04; /*this is the orange color*/
-	font-size: 1em;
+	color: #f98b04; 
 	padding: 10px 10px 0 10px;
 }
 h4{
@@ -37,11 +36,12 @@ h4{
 	padding-top: 10px;
 }
 h5{
-	padding-top: 10px;
+    color: #0D74DB;
+	font-size: 1.1em;
+	padding-top: 15px;
 }
 button{
 	background-size: 280px;
-	display: block;
 	width: 250px;
 	margin: 5px 10px 5px 10px;
 	padding: 5px;
@@ -50,21 +50,13 @@ button{
 .strong{
 	font-weight: bold;
 }
-.padding-above{
-	padding-top: 10px;
-}
-.padding-below{
-	padding-bottom: 20px;
-}
 #container{
 	width:1000px;
 	min-height:800px;
-	background-color: white;
 }
 #header{
 	width:1000px;
 	height:220px;
-	background-color: white;
 }
 	#header ul{
 		display: inline-block;
@@ -77,18 +69,19 @@ button{
 	}
 	#header ul li{
 		display: inline;
-		vertical-align: top;
 		text-decoration: none;
 		padding: 5px 10px 0 10px;
-		border-right: solid #c1bbbb 1px; /*darker gray color*/
+		border-right: solid #c1bbbb 1px; 
 		color: #c1bbbb;
+		background-color: #efeded;
 	}
 	#header ul li:first-child{
 		padding:5px 10px 0 0;
 	}
 	#header ul li:last-child{
-		border-right:0;	
-		padding: 5px 15px 0 10px;
+		border-right:#c1bbbb;	
+		padding: 5px 20px 0 10px;
+		margin-right: 5px;
 	}
 	#header .login{
 	display: inline-block;
@@ -104,11 +97,44 @@ button{
 		font-size: 0.8em;
 		padding: 0;
 		margin:0 0 0 15px;
+		color: white;
 	}
 	#header img{
 		width: 320px;
 		height: 99px;
 		padding: 10px;
+	}
+#sidebar{
+	width:280px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+	#sidebar-top{
+		width:280px;
+		min-height: 250px;
+	}
+	#sidebar p{
+		padding-left: 10px;
+	}
+	.button-1{
+		background-color: #0D74DB;
+		border: solid 1px #0D74DB;
+		display: block;
+	}
+	.button-2{
+		background-color: #f98b04;
+		border: solid 1px #f98b04;
+		display: block;
+	}
+	#sidebar img{
+		width: 200px;
+		height: 249px;
+		padding: 50px 10px 0 10px;
+	}
+	.credit{
+		text-align: center;
+		padding-right: 25px;
 	}
 #body{
 	width:700px;
@@ -120,25 +146,23 @@ button{
 	width:700px;
 	height: 100px;
 	border-bottom: solid #c1bbbb 1px;
+	vertical-align: top;
 }
 	#body-top p{
 		font-size: 1.3em;
 		color: #c1bbbb;
 		display: inline-block;
-		vertical-align: top;
 		padding: 3px 5px 0 5px;
 	}
 	#body-top a{
 		font-size: .9em;
 		color:#0D74DB;
 		display: inline-block;
-		vertical-align: top;
 		padding: 10px 5px 0 0px;
 		width: 109px;
 	}
 	#body-top img{
 		display: inline-block;
-		vertical-align: top;
 		padding: 10px 0 0 300px;	
 	}
 #body-middle{
@@ -150,19 +174,29 @@ button{
 	    padding:0;
 	    margin:0;
 	}
-	#body-middle p{
+	#body-middle li{
+		line-height: 25px;
+		font-size: .9em;
 		padding-top: 10px;
 	}
 	#body-middle ul li :before{
 		content: "•  ";
 	    color: #0D74DB; 
-	    padding-left: 5px;
+	    padding-left: 10px;
+	}
+	#body-middle p{
+		padding-top: 15px;
+	}
+	#body-middle p:last-child{
+	padding-bottom: 15px;
+	}
+	#body-middle a{
+	    color: #0D74DB;
 	}
 #body-border{
 	width:630px;
 	height:165px;
 	border: 5px solid #0D74DB;
-	background-color: white;
 }
 	#body-border img{
 		width: 68px;
@@ -186,34 +220,3 @@ button{
 		width: 200px;
 		margin-left: 0;
 	}
-#sidebar{
-	width:280px;
-	min-height: 500px;
-	display: inline-block;
-	vertical-align: top;
-	margin-right: 20px;
-}
-	#sidebar-top{
-		width:280px;
-		min-height: 250px;
-		background-color:white;
-	}
-	#sidebar p{
-		padding-left: 10px;
-	}
-	.button-1{
-		background-color: #0D74DB;
-		border: solid 1px #0D74DB;
-	}
-	.button-2{
-		background-color: #f98b04;
-		border: solid 1px #f98b04;
-	}
-	#sidebar img{
-		width: 200px;
-		height: 249px;
-		padding: 50px 10px 0 10px;
-	}
-.centered-text{
-	text-align: center;
-/*} REDO THIS*/
